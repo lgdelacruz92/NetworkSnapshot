@@ -16,6 +16,7 @@
 		07A8E66226AEECAD0051E253 /* NetworkSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8E66126AEECAD0051E253 /* NetworkSnapshotTests.swift */; };
 		07A8E66D26AEECAD0051E253 /* NetworkSnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8E66C26AEECAD0051E253 /* NetworkSnapshotUITests.swift */; };
 		07A8E67C26AEECE30051E253 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8E67B26AEECE30051E253 /* Swifter */; };
+		07A8E67E26AF092C0051E253 /* privacy-policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 07A8E67D26AF092B0051E253 /* privacy-policy.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		07A8E66826AEECAD0051E253 /* NetworkSnapshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkSnapshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A8E66C26AEECAD0051E253 /* NetworkSnapshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSnapshotUITests.swift; sourceTree = "<group>"; };
 		07A8E66E26AEECAD0051E253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A8E67D26AF092B0051E253 /* privacy-policy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "privacy-policy.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		07A8E63E26AEECAB0051E253 = {
 			isa = PBXGroup;
 			children = (
+				07A8E67D26AF092B0051E253 /* privacy-policy.md */,
 				07A8E64926AEECAB0051E253 /* NetworkSnapshot */,
 				07A8E66026AEECAD0051E253 /* NetworkSnapshotTests */,
 				07A8E66B26AEECAD0051E253 /* NetworkSnapshotUITests */,
@@ -242,6 +245,7 @@
 				07A8E65726AEECAD0051E253 /* LaunchScreen.storyboard in Resources */,
 				07A8E65426AEECAD0051E253 /* Assets.xcassets in Resources */,
 				07A8E65226AEECAB0051E253 /* Main.storyboard in Resources */,
+				07A8E67E26AF092C0051E253 /* privacy-policy.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lgdelacruz.NetworkSnapshot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgdelacruz.NetworkSnapshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lgdelacruz.NetworkSnapshot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgdelacruz.NetworkSnapshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
