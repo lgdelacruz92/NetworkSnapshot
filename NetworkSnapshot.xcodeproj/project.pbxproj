@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		07A8E65726AEECAD0051E253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A8E65526AEECAD0051E253 /* LaunchScreen.storyboard */; };
 		07A8E66226AEECAD0051E253 /* NetworkSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8E66126AEECAD0051E253 /* NetworkSnapshotTests.swift */; };
 		07A8E66D26AEECAD0051E253 /* NetworkSnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8E66C26AEECAD0051E253 /* NetworkSnapshotUITests.swift */; };
+		07A8E67C26AEECE30051E253 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 07A8E67B26AEECE30051E253 /* Swifter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8E67C26AEECE30051E253 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = NetworkSnapshot;
+			packageProductDependencies = (
+				07A8E67B26AEECE30051E253 /* Swifter */,
+			);
 			productName = NetworkSnapshot;
 			productReference = 07A8E64726AEECAB0051E253 /* NetworkSnapshot.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 07A8E63E26AEECAB0051E253;
+			packageReferences = (
+				07A8E67A26AEECE30051E253 /* XCRemoteSwiftPackageReference "swifter" */,
+			);
 			productRefGroup = 07A8E64826AEECAB0051E253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07A8E67A26AEECE30051E253 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07A8E67B26AEECE30051E253 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07A8E67A26AEECE30051E253 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07A8E63F26AEECAB0051E253 /* Project object */;
 }
